@@ -6,7 +6,7 @@ import Input from "../Input/Input";
 import Messages from "../Messages/Messages";
 import TextContainer from "../TextContainer/TextContainer";
 import io from "socket.io-client";
-const ENDPOINT = "localhost:5000";
+const ENDPOINT = "https://chat-rooms-node-server.herokuapp.com/";
 let socket;
 
 const Chat = ({ location }) => {
